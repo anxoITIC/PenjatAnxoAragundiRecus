@@ -1,0 +1,45 @@
+.button{
+    font-size: 25px;
+    border-radius: 8px;
+    margin: 2px;
+}
+
+
+#menu{
+    margin-top: 20px;
+}
+
+body{
+    background-color: rgb(112, 210, 243);
+
+}
+
+
+
+#but_penjat{
+    background-color: rgb(243, 81, 41);
+}
+
+#but_stats{
+    background-color: rgb(243, 81, 41);
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:10%;
+}
+
+.button.letters{
+    width: 60px;
+    height: 45px;
+}
+
+div{
+    text-align: center;
+}
+
+#jocPenjat{
+    font-size: 20px;
+}

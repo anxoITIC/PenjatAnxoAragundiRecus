@@ -146,6 +146,7 @@ function stats() {
     let gamesLost = localStorage.getItem("gamesLost");
 
     let stats = window.open("", "_blank");
+    stats.document.write(`<h1>Pàgina d'estadístiques</h1>`);
     stats.document.write(`<p>Partides jugades: ${gamesPlayed}<br>`);
     stats.document.write(`Victories: ${gamesWon} (${((gamesWon/gamesPlayed)*100).toFixed(2)}%)<br>`);
     stats.document.write(`Derrotes: ${gamesLost} (${((gamesLost/gamesPlayed)*100).toFixed(2)}%)</p><br>`);
